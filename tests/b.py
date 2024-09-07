@@ -4,9 +4,6 @@ def main(page: Page) -> None:
 
     text = lambda color: Text("Hello World!", color=color)
 
-    const text = (color) => {
-        return Text("Hello World!", color=color)
-    }
 
 
     page.add(

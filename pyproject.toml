@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flettest"
+version = "0.1.0"
+description = "Just a test flet app"
+authors = ["Ashif4354 <ashif.abhas@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode=false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
